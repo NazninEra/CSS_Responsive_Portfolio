@@ -97,8 +97,12 @@ body{
         width: 200px;
         padding: 10px;
     }
-    .what-i-do-card div{
-        font-size: 10px;
+    .what-i-do-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
     }
 
 
